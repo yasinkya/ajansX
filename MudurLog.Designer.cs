@@ -154,10 +154,11 @@
             this.baKarisikKoliDataGridViewCheckBoxColumn,
             this.birimKodDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.tblUrunBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(40, 127);
+            this.dataGridView1.Location = new System.Drawing.Point(26, 127);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(748, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(762, 150);
             this.dataGridView1.TabIndex = 5;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // dukkanDataSet
             // 
