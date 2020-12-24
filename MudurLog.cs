@@ -33,5 +33,10 @@ namespace Ajans_X
             this.tblUrunTableAdapter.Fill(this.dukkanDataSet1.tblUrun);
 
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
