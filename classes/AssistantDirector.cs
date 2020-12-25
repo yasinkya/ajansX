@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Ajans_X.classes
 {
-    class AssistantDirector
+    class AssistantDirector:Workers
     {
+
     }
 }

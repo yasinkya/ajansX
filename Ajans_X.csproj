@@ -46,6 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="classes\Actress.cs" />
+    <Compile Include="classes\Advertisement.cs" />
+    <Compile Include="classes\AssistantDirector.cs" />
+    <Compile Include="classes\Company.cs" />
+    <Compile Include="classes\Movie.cs" />
+    <Compile Include="classes\OfficeWorker.cs" />
+    <Compile Include="classes\Projects.cs" />
+    <Compile Include="classes\Radio.cs" />
     <Compile Include="classes\Workers.cs" />
     <Compile Include="dukkanDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -127,5 +135,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

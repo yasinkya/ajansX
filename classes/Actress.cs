@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Ajans_X.classes
 {
-    class Actress
+    public class Actress:Workers
     {
+        public string Role { get; set; }
+        public bool Status { get; set; }
+        
+
     }
 }

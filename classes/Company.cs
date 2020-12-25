@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace Ajans_X.classes
 {
-    public class OfficeWorker:Workers
+    class Company
     {
-        public string Role { get; set; }
-        public bool status { get; set; }
-
-
+        public string Name { get; set; }
+        public int C_Id { get; set; }
+        public string Adress { get; set; }
 
     }
 }

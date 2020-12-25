@@ -8,5 +8,7 @@ namespace Ajans_X.classes
 {
     class Movie
     {
+        public Workers Mworker { get; set; }
+        public Workers OfficeW { get; set; }
     }
 }
