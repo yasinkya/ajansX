@@ -35,11 +35,6 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.dukkanDataSet = new Ajans_X.dukkanDataSet();
-            this.dukkanDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dukkanDataSet1 = new Ajans_X.dukkanDataSet1();
-            this.tblUrunBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.tblUrunTableAdapter = new Ajans_X.dukkanDataSet1TableAdapters.tblUrunTableAdapter();
             this.urunKodDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewButtonColumn();
             this.bolgeKodDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -67,11 +62,16 @@
             this.hacimDesiDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.baKarisikKoliDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.birimKodDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tblUrunBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dukkanDataSet1 = new Ajans_X.dukkanDataSet1();
+            this.dukkanDataSet = new Ajans_X.dukkanDataSet();
+            this.dukkanDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.tblUrunTableAdapter = new Ajans_X.dukkanDataSet1TableAdapters.tblUrunTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tblUrunBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dukkanDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dukkanDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dukkanDataSetBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dukkanDataSet1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tblUrunBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -154,35 +154,11 @@
             this.baKarisikKoliDataGridViewCheckBoxColumn,
             this.birimKodDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.tblUrunBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(26, 127);
+            this.dataGridView1.Location = new System.Drawing.Point(26, 131);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(762, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(738, 150);
             this.dataGridView1.TabIndex = 5;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
-            // dukkanDataSet
-            // 
-            this.dukkanDataSet.DataSetName = "dukkanDataSet";
-            this.dukkanDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // dukkanDataSetBindingSource
-            // 
-            this.dukkanDataSetBindingSource.DataSource = this.dukkanDataSet;
-            this.dukkanDataSetBindingSource.Position = 0;
-            // 
-            // dukkanDataSet1
-            // 
-            this.dukkanDataSet1.DataSetName = "dukkanDataSet1";
-            this.dukkanDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // tblUrunBindingSource
-            // 
-            this.tblUrunBindingSource.DataMember = "tblUrun";
-            this.tblUrunBindingSource.DataSource = this.dukkanDataSet1;
-            // 
-            // tblUrunTableAdapter
-            // 
-            this.tblUrunTableAdapter.ClearBeforeFill = true;
             // 
             // urunKodDataGridViewTextBoxColumn
             // 
@@ -348,11 +324,35 @@
             this.birimKodDataGridViewTextBoxColumn.HeaderText = "birimKod";
             this.birimKodDataGridViewTextBoxColumn.Name = "birimKodDataGridViewTextBoxColumn";
             // 
+            // tblUrunBindingSource
+            // 
+            this.tblUrunBindingSource.DataMember = "tblUrun";
+            this.tblUrunBindingSource.DataSource = this.dukkanDataSet1;
+            // 
+            // dukkanDataSet1
+            // 
+            this.dukkanDataSet1.DataSetName = "dukkanDataSet1";
+            this.dukkanDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // dukkanDataSet
+            // 
+            this.dukkanDataSet.DataSetName = "dukkanDataSet";
+            this.dukkanDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // dukkanDataSetBindingSource
+            // 
+            this.dukkanDataSetBindingSource.DataSource = this.dukkanDataSet;
+            this.dukkanDataSetBindingSource.Position = 0;
+            // 
+            // tblUrunTableAdapter
+            // 
+            this.tblUrunTableAdapter.ClearBeforeFill = true;
+            // 
             // MudurLog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(805, 450);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
@@ -363,10 +363,10 @@
             this.Text = "MudurLog";
             this.Load += new System.EventHandler(this.MudurLog_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tblUrunBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dukkanDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dukkanDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dukkanDataSetBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dukkanDataSet1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tblUrunBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
