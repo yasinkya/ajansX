@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Ajans_X.classes;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -34,6 +35,23 @@ namespace Ajans_X
             string[] datas = new string[] { "1", worker.Name, worker.Surname, worker.Age.ToString(), worker.OffDays.ToString(), worker.Salary.ToString(), worker.Role, worker.Status.ToString(), "yok" };
 
             dataGridView1.Rows.Add(datas);
+
+            
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            classes.RadioProject radioprj= new classes.RadioProject();
+
+            radioprj.Id = 1;
+            radioprj.PrjName = "reklam";
+            radioprj.Start = DateTime.Parse("2020-10-09");
+            //radioprj.Finish = Convert.ToDateTime("2020-15-09");
+            radioprj.Price=1000000.99F;
+            radioprj.Rworker = new Actress();
+            radioprj.OfficeW = new OfficeWorker();
+
+            MessageBox.Show(radioprj.Start.ToString()+"\n"+radioprj.Price.ToString());
 
         }
     }

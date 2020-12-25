@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ajans_X.classes
 {
-    class Advertisement
+    class AdvertisementProject:Projects
     {
         public Workers Adworker { get; set; }
         public Workers OfficeW { get; set; }

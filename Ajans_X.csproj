@@ -47,13 +47,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="classes\Actress.cs" />
-    <Compile Include="classes\Advertisement.cs" />
+    <Compile Include="classes\AdvertisementProject.cs" />
     <Compile Include="classes\AssistantDirector.cs" />
     <Compile Include="classes\Company.cs" />
-    <Compile Include="classes\Movie.cs" />
+    <Compile Include="classes\MovieProject.cs" />
     <Compile Include="classes\OfficeWorker.cs" />
     <Compile Include="classes\Projects.cs" />
-    <Compile Include="classes\Radio.cs" />
+    <Compile Include="classes\RadioProject.cs" />
     <Compile Include="classes\Workers.cs" />
     <Compile Include="dukkanDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
