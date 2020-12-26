@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajans_X", "Ajans_X.csproj", "{30F13C6F-0696-42D9-B808-DA3549DAE5FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjansOtomasyon", "..\AjansOtomasyon\AjansOtomasyon\AjansOtomasyon.csproj", "{99CC0B7C-56B0-47DA-870C-F426EBDAD5B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{30F13C6F-0696-42D9-B808-DA3549DAE5FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30F13C6F-0696-42D9-B808-DA3549DAE5FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30F13C6F-0696-42D9-B808-DA3549DAE5FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99CC0B7C-56B0-47DA-870C-F426EBDAD5B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99CC0B7C-56B0-47DA-870C-F426EBDAD5B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99CC0B7C-56B0-47DA-870C-F426EBDAD5B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99CC0B7C-56B0-47DA-870C-F426EBDAD5B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
