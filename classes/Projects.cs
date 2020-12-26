@@ -14,7 +14,9 @@ namespace Ajans_X.classes
         public DateTime Finish { get; set; }
         public float Price { get; set; }
 
-        public Workers Inwork { get; set; }
+        public int ActWorker { get; set; }
+        public int OfficeWorker { get; set; }
+        public int Company { get; set; }
 
     }
 }

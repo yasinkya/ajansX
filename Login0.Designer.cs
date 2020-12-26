@@ -1,6 +1,6 @@
 ﻿namespace Ajans_X
 {
-    partial class Login
+    partial class Login0
     {
         /// <summary>
         ///Gerekli tasarımcı değişkeni.

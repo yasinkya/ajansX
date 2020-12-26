@@ -46,15 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AjansCsDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AjansCsDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="classes\Actress.cs" />
-    <Compile Include="classes\AdvertisementProject.cs" />
     <Compile Include="classes\AssistantDirector.cs" />
     <Compile Include="classes\Company.cs" />
-    <Compile Include="classes\MovieProject.cs" />
     <Compile Include="classes\OfficeWorker.cs" />
     <Compile Include="classes\Projects.cs" />
-    <Compile Include="classes\RadioProject.cs" />
     <Compile Include="classes\Workers.cs" />
+    <Compile Include="database\DB_Connection.cs" />
+    <Compile Include="database\User.cs" />
     <Compile Include="dukkanDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -70,6 +74,12 @@
     </Compile>
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login0.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login0.Designer.cs">
+      <DependentUpon>Login0.cs</DependentUpon>
     </Compile>
     <Compile Include="MudurLog.cs">
       <SubType>Form</SubType>
@@ -88,6 +98,9 @@
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Login0.resx">
+      <DependentUpon>Login0.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MudurLog.resx">
       <DependentUpon>MudurLog.cs</DependentUpon>
     </EmbeddedResource>
@@ -100,6 +113,17 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="AjansCsDataSet.xsc">
+      <DependentUpon>AjansCsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AjansCsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AjansCsDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AjansCsDataSet.xss">
+      <DependentUpon>AjansCsDataSet.xsd</DependentUpon>
+    </None>
     <None Include="dukkanDataSet.xsc">
       <DependentUpon>dukkanDataSet.xsd</DependentUpon>
     </None>
