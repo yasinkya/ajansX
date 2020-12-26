@@ -32,5 +32,15 @@ namespace Ajans_X.Properties {
                 return ((string)(this["dukkanConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=KAYA;Initial Catalog=AjansCs;Integrated Security=True")]
+        public string AjansCsConnectionString {
+            get {
+                return ((string)(this["AjansCsConnectionString"]));
+            }
+        }
     }
 }
