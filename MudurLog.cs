@@ -16,27 +16,45 @@ namespace Ajans_X
         {
             InitializeComponent();
         }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-
-        }
-
+        database.DB_Connection database;
         private void MudurLog_Load(object sender, EventArgs e)
         {
-            // TODO: Bu kod satırı 'dukkanDataSet1.tblUrun' tablosuna veri yükler. Bunu gerektiği şekilde taşıyabilir, veya kaldırabilirsiniz.
-            this.tblUrunTableAdapter.Fill(this.dukkanDataSet1.tblUrun);
-
+            database = new database.DB_Connection();
         }
+        
+
+        
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            dgvList.DataSource = database.ActressesList();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            
+            dgvList.DataSource = database.OfficersList();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            dgvList.DataSource = database.ProjectsList();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            dgvList.DataSource = database.CompaniesList();
+        }
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        
     }
 }

@@ -9,3 +9,15 @@ C:\Users\Kaya\Desktop\projects\cs_p\Ajans_X\obj\Debug\Ajans_X.csproj.GenerateRes
 C:\Users\Kaya\Desktop\projects\cs_p\Ajans_X\obj\Debug\Ajans_X.csproj.CoreCompileInputs.cache
 C:\Users\Kaya\Desktop\projects\cs_p\Ajans_X\obj\Debug\Ajans_X.exe
 C:\Users\Kaya\Desktop\projects\cs_p\Ajans_X\obj\Debug\Ajans_X.pdb
+C:\Users\Kaya\Desktop\ödev\c#\Ajans_X\bin\Debug\Ajans_X.exe.config
+C:\Users\Kaya\Desktop\ödev\c#\Ajans_X\bin\Debug\Ajans_X.exe
+C:\Users\Kaya\Desktop\ödev\c#\Ajans_X\bin\Debug\Ajans_X.pdb
+C:\Users\Kaya\Desktop\ödev\c#\Ajans_X\obj\Debug\Ajans_X.csprojAssemblyReference.cache
+C:\Users\Kaya\Desktop\ödev\c#\Ajans_X\obj\Debug\Ajans_X.Login.resources
+C:\Users\Kaya\Desktop\ödev\c#\Ajans_X\obj\Debug\Ajans_X.Login0.resources
+C:\Users\Kaya\Desktop\ödev\c#\Ajans_X\obj\Debug\Ajans_X.MudurLog.resources
+C:\Users\Kaya\Desktop\ödev\c#\Ajans_X\obj\Debug\Ajans_X.Properties.Resources.resources
+C:\Users\Kaya\Desktop\ödev\c#\Ajans_X\obj\Debug\Ajans_X.csproj.GenerateResource.cache
+C:\Users\Kaya\Desktop\ödev\c#\Ajans_X\obj\Debug\Ajans_X.csproj.CoreCompileInputs.cache
+C:\Users\Kaya\Desktop\ödev\c#\Ajans_X\obj\Debug\Ajans_X.exe
+C:\Users\Kaya\Desktop\ödev\c#\Ajans_X\obj\Debug\Ajans_X.pdb

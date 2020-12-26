@@ -9,7 +9,7 @@ namespace Ajans_X.classes
     public class OfficeWorker:Workers
     {
         public string Role { get; set; }
-        public bool status { get; set; }
+        public bool Status { get; set; }
 
 
 

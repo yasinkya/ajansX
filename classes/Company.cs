@@ -11,6 +11,6 @@ namespace Ajans_X.classes
         public string Name { get; set; }
         public int C_Id { get; set; }
         public string Adress { get; set; }
-
+        public int Contracts { get; set; }
     }
 }
